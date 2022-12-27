@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    // background-color:crimson;
+}
+.form{
+        margin-bottom: 40px;
+    button{
+        width: 120px;
+        height: 40px;
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        background-color: #20a2d8;
+        font-size: 20px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    input{
+        height: 40px;
+    }
+}
+
+.wrapper{
+    width: 100%;
+    height: max-content;
+    // background-color: red;
+    .weather{
+        max-width: 450px;
+        height: max-content;
+        padding: 20px;
+        margin: 0 auto;
+        border: 2.5px solid #373733;
+        border-radius: 10px 0 10px 0;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;  
+        .weather-header{
+            width: 100%;
+            height: max-content;
+            // background-color: yellow;
+            display: flex;
+            justify-content: space-between;
+            // align-items: center;
+            .weather-main{
+                .city{
+                    font-size: 30px;
+                    color: #373733;
+                    font-weight: 900;
+                    margin-bottom: 10px;
+                }
+                .status{
+                    font-size: 20px;
+                    color: #373733;
+                    font-weight: 900;
+                    margin-bottom: 10px;
+                }
+            }
+            .weather-icon{
+                // background-color: blue;
+                svg{
+                    width: 50px;
+                    height: 100px;
+                }
+            }
+        }
+        .temp{
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

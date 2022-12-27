@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+.form button {
+  width: 120px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  border-radius: 10px;
+  background-color: #20a2d8;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.form input {
+  height: 40px;
+}
+
+.wrapper {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.wrapper .weather {
+  max-width: 450px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 20px;
+  margin: 0 auto;
+  border: 2.5px solid #373733;
+  border-radius: 10px 0 10px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.wrapper .weather .weather-header {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.wrapper .weather .weather-header .weather-main .city {
+  font-size: 30px;
+  color: #373733;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.wrapper .weather .weather-header .weather-main .status {
+  font-size: 20px;
+  color: #373733;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.wrapper .weather .weather-header .weather-icon svg {
+  width: 50px;
+  height: 100px;
+}
+.wrapper .weather .temp {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}/*# sourceMappingURL=style.css.map */
